@@ -1,0 +1,4 @@
+<FilesMatch "\.(?i:pdf|evt|evt4|evt5)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>
