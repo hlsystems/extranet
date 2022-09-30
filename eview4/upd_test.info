@@ -1,7 +1,0 @@
-[Info]
-name=Hauptprogramm
-version=4.0.1.0
-datum=24.05.2006
-size=1,8 MB
-modul=Planer
-file=%binpfad%eview.exe
