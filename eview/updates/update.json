@@ -1,19 +1,19 @@
 {
-  "version": "6.0.4",
-  "notes": "- Fix: Windows Update-Artefakte (.nsis.zip) werden jetzt korrekt erstellt und hochgeladen\n- Fix: Auto-Update Artefakte werden jetzt korrekt im Release erstellt (macOS + Windows)\n- Fix: Scheduler wird beim Beenden der App sauber heruntergefahren\n- Fix: Versionsanzeige in der Statusleiste wird dynamisch aus der App-Konfiguration gelesen",
-  "pub_date": "2026-03-30T08:18:15Z",
+  "version": "6.0.5",
+  "notes": "- Single Instance: App kann nur noch einmal gleichzeitig gestartet werden\n- Entfernt: WebView2Loader.dll wird nicht mehr neben der portable exe erstellt\n- Fix: Windows Update-Artefakte (.nsis.zip) werden jetzt korrekt erstellt und hochgeladen\n- Fix: Auto-Update Artefakte werden jetzt korrekt im Release erstellt (macOS + Windows)\n- Fix: Scheduler wird beim Beenden der App sauber heruntergefahren\n- Fix: Versionsanzeige in der Statusleiste wird dynamisch aus der App-Konfiguration gelesen",
+  "pub_date": "2026-03-30T09:17:26Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNll6U0toUFVad0M1L3RlbW1vaWhBeGRQYmdMZjZhcndRSTNTajNPdFRhSG9VOHVXbnF4ZU8wSDdJQ1R2Zmt6TlBCZHp6S2FmVmRiQWd3clpTakpxTUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODU4MDcxCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKSWtvNkwxZGVWMC9sQU0rWXN0cDlNM3JrYTJELzVIbldLUzA5N1d3cVRWSHJ0UktkaHlpOXhvTE9tSlgwRzFQb1ZYVUNzYTF5TWYxUGtYVGN1aVBKQXc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmZVOUtLb2VHZXA1QTNwTFFBall2Mkh6Zk1yMXV0dk13TG95L2p0NytDcnd0R29VUHRKZndOK2tPNStFTnlja3NCN29neTVyT3hKNzBXQ1VjaTZickFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODYxNzUxCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKNE1FdXNVZ1FUUjcremR0NldOUHZScnBwbG1aVExkMTdJcUdJMWZJeWpiSmF5NHE2Njc0WDVLM1ovNEpZUnVBd01qWWFTUkE1NWpFUDdndWFCUERHRFE9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlMyUDNURWVmVy9yOFhacWNvOWlDaUNTc29KcWZKeTJFNGtGekhUZUIxTmpKdFNndzQ3Q1p4UlpqemJ1SDB3RmN0QnRxSDEwVVhtNEdpT3hrcGxpTnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODU4MzI0CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKUUhMbHJqcXhPOTVMTnJuVkozdm9GamJ2d29ZTlNld0FibTJhOFMxRlM3WEpHeTU3Q0RxS1pRRmdJVm05eElVb05jQ2VYSkRTdk1mUW9Kc2thaENKQ0E9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmZBSm9hVHFQaDl5Z1ZZTC9EMUlOQ2RZbjZzdzVGT1JjVlhwNGc5azJ3VFpsR0NBOUdlUFpmcHJvNHhVcVBUSkdjQ0hkUXpMOVZRNHhlTlNiRUVhZUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODYyMDY1CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKL2d0SllFUFMzTDllSU4rcTQyUDZwTXpCSlFkb09ycUdBdUxKY1JIVkdSZXRPTWtveldraXVLZ1dkZFdDNVN5eUJWMmVTYkROdU5XTE1reTh4Z0plQlE9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmQ2NDNhZUltWC9iNDRKdW5nalU3U0V3VTBrUmN3S1A2RHRRRVBZR1VaQ043cnhYV2dYdjM2M2ZKazNrQ2JtcDJCVnZjbW0wTFhXK09ESEZQaGdyT1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODU4NDgyCWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC40X3g2NC1zZXR1cC5uc2lzLnppcApmb0JLSkpMdGpBVnVOSlplTHVIZWtGSTNsUFFsdUFSTGxzdjJXYUhQbTMyd3ZiMm1HTURnaFBVY1hTa1lwZUFNQkdQa094Q3AwbU9SN2NZNjJDRTVBZz09Cg==",
-      "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_6.0.4_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmE1czVNSVE0a2RGcDRheUh6THJiQWlnYk1PUS9rTUVjUnZTdTEwTUZJVXFDdmFnYkdCdVB2a3AwQ3BqWk1PeUp6SEFybHRsWENJeXFVMW1taWxMUHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODYyMDM0CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC41X3g2NC1zZXR1cC5uc2lzLnppcApBWE9QTnB5WnpWQ0V5SUZnRytnUHZpOXZnQ2JoZXAvdGx1OUtxUkc3dG5GOUdoV202T25kQ21uc3lkdVBhOTh6dzBkQW1BeldNTndma25PVkc4TlNEdz09Cg==",
+      "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_6.0.5_x64-setup.nsis.zip"
     }
   }
 }
