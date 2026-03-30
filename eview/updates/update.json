@@ -1,19 +1,19 @@
 {
-  "version": "6.0.6",
-  "notes": "- Update-Dialog ist größer für bessere Lesbarkeit der Release Notes\n- Update-Prüfung in Einstellungen öffnet jetzt direkt den Update-Dialog mit Install-Button",
-  "pub_date": "2026-03-30T09:59:26Z",
+  "version": "6.0.7",
+  "notes": "- Veröffentlichungsdatum wird im Update-Dialog und in den Einstellungen angezeigt\n- Datum im Changelog ergänzt",
+  "pub_date": "2026-03-30T10:33:37Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlZmZzlGaUpVT0UvbnNEM0RLbSs2R25JR1pNU0N1NFhwODZ1M2drMjFKWEo4aEVocStqVEl6NC9WYlhsR1lVV0hXb1J3S3hUUTN3Snh4NUR3bWtBL2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODY0NDA5CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKdzB2V2VyRmZBOU80VklhVXJ0RzUyWG90R2t4Wk5CZHFYUXZuSkJMU2wvTXh2bjdnZmJwVjdRSFBZemk1NHo2eElTamcwVTk1YzFvNVN3VHlCcU1CQ2c9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmJmd1V1YmNoQ0hIRTJwOTloeTRlQWh2cjNlZXdmRFJJOW5tdTJyWFcxN0NTczNwc001TVNOTk8ydEM4NnYrSHVoa3dDOTNSTGhnaEZZWHZ1Q3Y0ZXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODY2NTI1CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKMFNOYlMwNUhYbjN1emFTUm5xempSUEF6eVFUdzk4cVRhWEJ2QlhJUFhSS2hDNEs3d1ZwK0FCanU1eTF4bWx5VG9KWk5ERytmSVJGNTAwNlh5NmtoQmc9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlprTkxxRDVqWjRWTEEyVS9uZDZmUGlQWFFiMXA3RnBDSVZLNFM4Y0NHMjNwaU9IRlMvRVJoUG15cS9FQjhQNlNyMUpkdGlYNXR1SXhPSmZsamFOZUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODY0NzI5CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKcFM2a0ZxeGk4aDZpd0hYTERuQ2I4REhwQWV5dkF4b25EVmFLWDc5eDFpc3hlc25UbGZudGF2cC9qNjBjR29TN3VqRnV2dHJPY21EeGZvZFVRVkp6QVE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmRlMW9aNHQ3TkM2YkVLZ0NZd2tqTXp6KzdOcUl5TTlqM3l2djltTnRqeEl6bE1yNytwUW1KQ1UrSHlYaGNLTVIvai9sSXNEdlUvWTZVV2JqcjF2NFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODY2Nzc4CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKb0s3MDV2TTc3UFB6ZmE3YTFWSnIyZEhSM1dMOWlrcTNxaEdaRmwxWmxyWXNTS3p0eEhMem1majV4by9qZXlqWGpUSW5IWmdpbTFHd1JkMUJKY1dWRFE9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlVkVm11NlRhVVdkOHBXekZCSU54ZDBYYnYycm1aTGN0UEpBUEZ0RUJEVUhiYkFHUXV1SzFHU0pienR1ODhOS2EwT1Ftd1V0RVhFbGJtMHZGdnhkQmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODY0NjY5CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC42X3g2NC1zZXR1cC5uc2lzLnppcApGb3VmVTRVanRwUTdiRVU1Snc5Tmp6TnFCTlJRTldEWHVIN1NsZTQ4T1ErRTgxK0VqUi9DdEIrazZJSzFUQlFGSVBwZ0tjb2c1NXZmYkxBY2dOek9CUT09Cg==",
-      "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_6.0.6_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlFuNGlrdEJjaHlVY3JVekNNZkQ1QnlaaVBxNW14bDF4TGRZNFVURmZGS2tTVmkzSHl4TzE5bXhDQnJSVmJSeXZ2a0FSbzBkTHc2aUhuS013eFpiVVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODY2NzYwCWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC43X3g2NC1zZXR1cC5uc2lzLnppcApVMjNmY0tVKzFGRGlUb29oM1VRanZNd3NGTVhaSTZoVE9pTmg2WGRFdW5NaERQdmFmRGtwdmRkRHl3ZFdtcVFGU1ZaYmMrNjUwRzZ4RWJ1WTFiUjNCZz09Cg==",
+      "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_6.0.7_x64-setup.nsis.zip"
     }
   }
 }
