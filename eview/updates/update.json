@@ -1,0 +1,15 @@
+{
+  "version": "6.0.3",
+  "notes": "- Fix: Auto-Update Artefakte werden jetzt korrekt im Release erstellt (macOS + Windows)\n- Fix: Scheduler wird beim Beenden der App sauber heruntergefahren\n- Fix: Versionsanzeige in der Statusleiste wird dynamisch aus der App-Konfiguration gelesen",
+  "pub_date": "2026-03-30T07:30:07Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmZLc1ZBcVpMRXQzbENTTzUrRjYyRDlObkJmOENMSFV3TE1pdFI0REEzN0RQa0Y5a0o5WHpFZU9UYU5TQjB4VWlEdy81RGZZY3ZIS3hNdkFSUXhQT0FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODU0MTk3CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKZSs3TGVjWEtUV0hkU1ZJT2toN2JqYWFpb2sxdVRZbk5kYjd1RkxMa2RvWkdRa1lyNUp1SVBWNXh5SUs1U1FsRjQyam1IVDk1WUtzVnAzTnZMU25YRHc9PQo=",
+      "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlhRTnd1LzRaNk9GRzZ4eURHVkVVQWZId1V0VnBKNklWR0p6Nm02ZW9FMithOHJ3TTRnbVJPN3ladmdZVTNBdk50eGxXNUVUYjZGcWQxRitRNXQ0cXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0ODU0NTEwCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKWDJyU1BsYzMrbUxmUzlYZzVOVDRETFR4enJsS3ZJbWY1aDRMWXh2U2FhT1Vad0xYZEJPU2FlUjhscE1NR3lIWGZRVitkcWN1Sks1THozZWxKVlpBQ2c9PQo=",
+      "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_x64.app.tar.gz"
+    }
+  }
+}
