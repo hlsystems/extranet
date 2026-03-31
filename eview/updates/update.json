@@ -1,18 +1,18 @@
 {
   "version": "6.0.8",
   "notes": "- Server-Variante: Lizenzprüfung mit Aktivierungsseite und Einstellungen\n- Server-Variante: Logo, Favicon und Versionsnummer in der Web-Oberfläche\n- Server-Variante: Vorlagen mit Liste und Beschreibung in der Tabellenansicht\n- Server: Feste Pfade /data, /data/uploads, /browse (keine Env-Variablen mehr nötig)\n- Server: Lizenz kann per EASYVIEWING_LICENSE Umgebungsvariable gesetzt werden\n- .evt6 Dateiformat: Export und Import von Vorlagen mit Metadaten-Header (#!name, #!parser_type, #!category, #!list, #!description)\n- .evt6 Import: Parser-Typ wird aus Metadaten gelesen, Fallback auf Content-Erkennung\n- Desktop-App: Vorlagen können als .evt6 exportiert werden\n- Desktop-App: .evt6 Import erkennt Fixed-Width und TextFSM automatisch\n- Docker: docker-compose.yml mit Image-Referenz (ghcr.io/hlsystems/easyviewing-server)\n- Installationsanleitung (install-server.md) und Install-Script (install.sh)\n- Tauri: fs:allow-write-text-file Capability für Template-Export",
-  "pub_date": "2026-03-31T11:55:12Z",
+  "pub_date": "2026-03-31T12:11:24Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmZvV0YxNnlQRit0N2tSci93dXYydEZOMVhTZGJ6Uy80VExTZDgwdWtMYUR2bkVMM2R4cHhSZVBRQmtwalZieitqRVU5Z2JRS2F4NUhsQS81QUNDa2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0OTU3NjY3CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKdHNHRW8vK1hnRXRsSWs0TjlvZXNLN1R6Zzh3eDZVc2llTjArTXBLditEQTdwRmtEWnZwenFVeEJkdEh2Z2l1YTJKNDRTeXRsRVNxUXFod2UwR2hBQUE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmRpRU5NRm5ad1VxVGtBTlJWSDdGcm5PQkJZVFVqNTRzQUt3ZjUrYUphZTBRUUpaSzdRRXB2cVBocy9aQ2RwZ00yVCtpVEY3SlZrb2Uzb1BZMnRHV2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0OTU4NjAyCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKMy9aWHgvcGJJSDYrdTBqazdEN3lwRzBRY1RMdW9HSEtYUkF3V3RlNFl0R2FJQjQxdEhqeGdweVozZllYNXByV0NReGpJSTIxRnRWNzNLQVFGZzBFQmc9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmFTaGZxbUZvdEFNclJZeThUYmhxSjUyNXliZGIyRzZxSGQ2cm1yRUk3NXllT1VJZHowbVVxUG5pb3krcHRFZjRPR3NRdnJaenpGa0I5anYzakx3T1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0OTU3OTIwCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKaXZtY0F6ZWpmblhXT0xBRjJIdm1wRUdQeENrSW5zbEtXOEU4RGE5MUY1YURRS2pnMThMaDBBako1b016a0VBWjVNYlc4Ty91ZllhcHN4aHNhd1VsQlE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlZrRXF6NmZvSFhTR2pjdlVVdzFCeVpOMVNVb0gyTHFYQzlMZlBzZ3VLNHhPSm1KMjhGUlE0R3VEcmlWTzQ2WTlBUUFKM3lKTXFnUUVndHE3RnVuNkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0OTU4ODQ2CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKMHE5cXlHNmxJQ2pSU00xbk1CZjlDZTVwWEs0dGpJQnpZakVnL0ZtcThOWUdSUnJJWFp0RWEzUHRTK1g0cmJCNFYzSUZzNzZjSWVSbkFlU3VaN0lSQXc9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmFHcG4zTXJWMFU4c2lSalg1YlM2Nk42aElQY2dHOTMveDkwWi8xZXdlTlVFK2RablpYR1lRK2l2RTFRTFVRZXBGdzYxa3NJQ0lJb1ZDOWpwS3JVYUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0OTU4MDQ1CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC44X3g2NC1zZXR1cC5uc2lzLnppcApPZjdWb0RUZ2MyVUszY3JFRTF5Mytrams1OXA5bDFpN29ZL2tGUEhXTmxjMFpOWERmMEpXenFRRSsxamhvSklBenk0bFlFdnFyaUNEWkhhV0YyZ1ZEdz09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmMwQXo2UW52cU11UUxDZGJtaEd0RHA1L3ViQjA3QlBPaklKamg3a1ViaFFxNDJQanJrRlJLaXFHamowV1grRXoycTYxeFU4cU1Mc1RTWDc2SzJJUGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc0OTU5MDI0CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC44X3g2NC1zZXR1cC5uc2lzLnppcApaWUJObVJpTmpiTHlGZUk5blVmNHFybXRMdXZSNnFaalhoYTgrQlF6ZXRMMVBad0xLQ2pQMXoyQ3BpSGNLZ204eHV6ZElvc0ZhRm81bTVYNzRnL0ZBUT09Cg==",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_6.0.8_x64-setup.nsis.zip"
     }
   }
