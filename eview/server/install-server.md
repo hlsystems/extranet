@@ -35,6 +35,7 @@ mkdir easyviewing && cd easyviewing
 services:
   easyviewing:
     image: ghcr.io/hlsystems/easyviewing-server:latest
+    container_name: easyviewing-server
     ports:
       - "3000:3000"
     volumes:
