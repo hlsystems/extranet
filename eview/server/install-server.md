@@ -38,9 +38,16 @@ services:
     ports:
       - "3000:3000"
     volumes:
+      # Option 1: Docker-Volume (Docker-verwaltet)
       - easyviewing-data:/data
+      # Option 2: Host-Verzeichnis
+      # - /pfad/auf/dem/host:/data
+      # Server-Verzeichnis zum Durchsuchen (optional, read-only)
+      # - /pfad/zu/dateien:/browse:ro
     environment:
-      - EASYVIEWING_LICENSE=EV1-IhrLizenzschluessel
+      - EASYVIEWING_PORT=3000
+      - EASYVIEWING_LICENSE=
+      # - RUST_LOG=info
     restart: unless-stopped
 
 volumes:
@@ -61,7 +68,7 @@ docker compose up -d
 
 ### Port ändern
 
-Um den Server auf einem anderen Port (z.B. 8080) zu betreiben:
+Um den Server auf einem anderen Port (z.B. 8080) zu betreiben, ändern Sie den ersten Wert bei `ports`:
 
 ```yaml
 ports:
@@ -70,10 +77,11 @@ ports:
 
 ### Daten auf dem Host speichern
 
-Statt eines Docker-Volumes können Sie die Daten direkt in einem Host-Verzeichnis ablegen:
+Statt eines Docker-Volumes können Sie die Daten direkt in einem Host-Verzeichnis ablegen. Kommentieren Sie dazu Option 1 aus und aktivieren Sie Option 2:
 
 ```yaml
 volumes:
+  # - easyviewing-data:/data
   - /pfad/auf/dem/host:/data
 ```
 
@@ -125,28 +133,6 @@ docker compose exec easyviewing tar czf - /data > easyviewing-backup.tar.gz
 ```
 
 Bei Verwendung eines Host-Verzeichnisses sichern Sie einfach das entsprechende Verzeichnis.
-
-## Vollständiges Beispiel
-
-```yaml
-services:
-  easyviewing:
-    image: ghcr.io/hlsystems/easyviewing-server:latest
-    ports:
-      - "3000:3000"
-    volumes:
-      - /opt/easyviewing/data:/data
-      - /srv/netzwerkdaten:/browse:ro
-    environment:
-      - EASYVIEWING_LICENSE=EV1-IhrLizenzschluessel
-    restart: unless-stopped
-```
-
-Dieses Beispiel:
-
-- Speichert Daten unter `/opt/easyviewing/data` auf dem Host
-- Stellt `/srv/netzwerkdaten` zum Durchsuchen bereit
-- Startet automatisch nach einem Neustart des Hosts
 
 ## Fehlerbehebung
 
