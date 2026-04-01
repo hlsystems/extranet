@@ -43,8 +43,12 @@ services:
       - easyviewing-data:/data
       # Option 2: Host-Verzeichnis
       # - /pfad/auf/dem/host:/data
-      # Server-Verzeichnis zum Durchsuchen (optional, read-only)
-      # - /pfad/zu/dateien:/browse:ro
+      # Quellverzeichnis für Dateien zum Parsen (optional, read-only)
+      # - /pfad/zu/quelldaten:/source:ro
+      # Exportverzeichnis für Ergebnisse (optional)
+      # - /pfad/zu/exports:/export
+      # Listenverzeichnis für gespeicherte Listen (optional)
+      # - /pfad/zu/listen:/lists
     environment:
       - EASYVIEWING_PORT=3000
       - EASYVIEWING_LICENSE=
@@ -86,17 +90,40 @@ volumes:
   - /pfad/auf/dem/host:/data
 ```
 
-### Server-Verzeichnis zum Durchsuchen
+### Quellverzeichnis für Dateien
 
-Um Dateien direkt vom Host-Dateisystem in der Web-Oberfläche auswählen zu können (z.B. für die Konvertierung), mounten Sie ein Verzeichnis nach `/browse`:
+Um Dateien direkt vom Host-Dateisystem in der Web-Oberfläche auswählen zu können (z.B. für die Konvertierung oder den Scheduler), mounten Sie ein Verzeichnis nach `/source`:
 
 ```yaml
 volumes:
   - easyviewing-data:/data
-  - /pfad/zu/dateien:/browse:ro
+  - /pfad/zu/quelldaten:/source:ro
 ```
 
 Das Verzeichnis wird automatisch erkannt und in der Konvertierungsansicht unter "Server-Verzeichnis" angezeigt. Das `:ro` Flag stellt sicher, dass easy Viewing die Dateien nur lesen kann.
+
+### Exportverzeichnis
+
+Um Ergebnisse in ein eigenes Verzeichnis auf dem Host zu exportieren, mounten Sie ein Verzeichnis nach `/export`:
+
+```yaml
+volumes:
+  - easyviewing-data:/data
+  - /pfad/zu/quelldaten:/source:ro
+  - /pfad/zu/exports:/export
+```
+
+Der Scheduler nutzt `/export` als Standardverzeichnis für den Dateiexport.
+
+### Listenverzeichnis
+
+Um gespeicherte Listen (Parse-Ergebnisse) in ein eigenes Verzeichnis auf dem Host abzulegen, mounten Sie ein Verzeichnis nach `/lists`:
+
+```yaml
+volumes:
+  - easyviewing-data:/data
+  - /pfad/zu/listen:/lists
+```
 
 ## Verwaltung
 
@@ -149,6 +176,10 @@ docker compose logs
 
 Wenn beim Start `Warning: EASYVIEWING_LICENSE is expired or invalid.` erscheint, prüfen Sie den Lizenzschlüssel. Die Lizenz kann auch nachträglich in der Web-Oberfläche unter "Einstellungen" eingegeben werden.
 
-### Browse-Verzeichnis nicht sichtbar
+### Quellverzeichnis nicht sichtbar
 
-Stellen Sie sicher, dass das Verzeichnis als `/browse` gemountet ist und der Container Leserechte hat.
+Stellen Sie sicher, dass das Verzeichnis als `/source` gemountet ist und der Container Leserechte hat.
+
+### Exportverzeichnis nicht sichtbar
+
+Stellen Sie sicher, dass das Verzeichnis als `/export` gemountet ist und der Container Schreibrechte hat.
