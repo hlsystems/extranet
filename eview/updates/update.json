@@ -1,19 +1,19 @@
 {
-  "version": "6.0.10",
-  "notes": "### App\n- Serververbindungen: Vorlagen und Planer auf Remote-Servern verwalten\n- Serververbindungen: Info-Seite mit Version, Hostname, OS, Docker-Status, Statistiken\n- Serververbindungen: Verbindungstest in Einstellungen\n- Serververbindungen: Jobs anlegen, bearbeiten, ausführen, löschen auf Remote-Servern\n- Planer: Kann über Einstellungen (Erweitert) ein-/ausgeschaltet werden\n- Planer: Job-Anzahl (aktiv/gesamt) wird über der Job-Liste angezeigt\n### Server\n- i18n: Vollständige Deutsch/Englisch-Übersetzung der Server-UI\n- Theme: Hell/Dunkel/System in Einstellungen wählbar\n- Listen: Neue Seite zur Anzeige gespeicherter Parse-Ergebnisse mit Sortierung, Spaltenfilter, Suche, Pagination\n- Konvertierung: Optionen \"Liste speichern\" und \"In Verzeichnis exportieren\" wie in der App\n- Konvertierung: Erfolgsmeldung statt Tabelle nach dem Parsen\n- Konvertierung: Verzeichnisauswahl über DirectoryBrowser\n- Scheduler: Verzeichnisauswahl über DirectoryBrowser (/source, /export, /lists, /data)\n- Scheduler: camelCase/snake_case Fixes für alle API-Calls\n- Browse-API: /browse durch /source ersetzt, neues /export und /lists Verzeichnis\n- Export/Listen-Verzeichnis: Fallback auf /data/export und /data/lists wenn kein eigenes Mount\n- CORS: Server erlaubt Cross-Origin-Requests (für App-Serververbindungen)\n- Server-Info API: Neuer /api/server_info Endpoint mit System- und Statistikdaten",
-  "pub_date": "2026-04-01T10:46:27Z",
+  "version": "6.0.11",
+  "notes": "### App\n- Server-Info: Verbindungstest und \"Im Browser öffnen\" Buttons bei der Server-URL\n- Planer (Server): Verzeichnisauswahl über Server-DirectoryBrowser für Quell-, Export- und Verschiebe-Verzeichnisse\n- Planer (Server): Vorlagen-Upload von App zum Server (\"Von App\" Button)\n### Server\n- Planer: \"Jetzt ausführen\" verarbeitet nun auch bereits verarbeitete Dateien erneut (Fix: stiller Abbruch)",
+  "pub_date": "2026-04-01T17:26:44Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlJVSElHM3RCekZCTS9leDRPZXIzVEJvTU9sZUtUTFU2YXp1ZzZTd29yeEYvS05OL2lTOUUrTXFzQ29yR0FRL1JKSXJOTUY4L3Jvc28wcHd1SjBzOUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MDM5NjYxCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKS3BsYi9YNGtlazNBU2tsalhBVEt6eTRSZzFmZGZxWnFRYzdRdGQ4TjV4TXBJN2tqNVQ3Z2s1clJWd2lNQnNxTk0wMGpJSUowZVNxYzlDVk5OTG85RHc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmFMd0lFek5oc2s3allFaHRwVXdIbTVYRVlzWDlwMWtxcDJvWTVQVXJVdmVFTFVXTWd6cUliZnVVYmcxSkRaVDJISytpU3FWU05iY3hTOWw1MG5Id0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MDY0MDI5CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKWVdaYUMycHJkb3V5TWVCNFJXYjhxVlNJQjBTV2lVRFRHQXI0aXRvRHZMRzBjdWR0NVBRN0VOTHpEOGdGdm1VS05zaUVadGR6VlNiNHBHU3Q2SWVFQ3c9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlg2bkNKWGNxRzhTeTQvemdBTlZpOXBCWEF2Y0VPZG8rREdKc1FXazV6TWl0aGhwZHJKbEtzd2pUbGpVYktnZlV4aWp0cXBCMzQzZnpHekFBT25tNmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MDM5OTUxCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKUFY3a2J5VktNQ1NLZUVuWDU5a1JJZFdrZE16YXNBZlVwYmp6ZlpzQ0tXL3MyT092RUZ2b2cwYmFDdzh3WVZJdFpmRVZOK1dyTnhwLzJLN3NyNDcxQnc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmJxQWpKdnlUVi9Dc1ZaRTRWdUs3eE41NW1aSVRtazEvVXI0VmNpNUVPcTRZdEJiWXdFUnZGTzgwbWxHR0JobHRLWjhSYjIvZGs0ckRjYzJOckpuZGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MDY0Mzg1CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKYmhPVW9Fa1dPd2U2VUVWZGNxQzgwQ01UdGhXd0YxODMwWE1yb3dXOEVNWHU2QlEySzdrZk83aEM1MHI5ZVVuVWVUZVhKY0ZnOUlvRmJWZStFRTh4Q3c9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmZzaEN1Z2g2TEMrM1o2Wk1UTDM5US9SVTlhdCtmVWRHT0l4Rld6OEswdjRTWFhqMzZGNmY1S0lob2ROVHlzZUxSZnpDSFVqampVdG5YRjJBV2NpbVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MDQwMDU0CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC4xMF94NjQtc2V0dXAubnNpcy56aXAKc2VmelJ3MjNMTWNhV0dvK2lJT0k5Y2ZueUJwbDdLV2c1ZGs5R09VSks3ZUsrVVJhcVU4cE1oY0lQUllmOVZrQVV2NkpOUGpGKzlaVExib2Z0TUVFQ0E9PQo=",
-      "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_6.0.10_x64-setup.nsis.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlJ0WjJvWnpEakhmb2QwdHlWZ1BlUS9NTGtGMithSUxtQjlzRy93YVNrVlgrR21STXR2eXZuakhuWjQxNVFPT3pNREtBNXVjbUNkSysyNCtKczdXZ1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MDY0MTU3CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC4xMV94NjQtc2V0dXAubnNpcy56aXAKdWFFMS9temk0dlRPL042Q2ZxaXFiOTZkalZidWphUXFEclFmcWtrTlpMTERTcGZoTWtZNVNpeTJ5cXBJTG1FRVl5cTdtRGppRWJRVFg2cXVSNmF2Q3c9PQo=",
+      "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_6.0.11_x64-setup.nsis.zip"
     }
   }
 }
