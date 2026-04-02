@@ -1,18 +1,18 @@
 {
   "version": "6.0.11",
   "notes": "### App\n- Server-Info: Verbindungstest und \"Im Browser öffnen\" Buttons bei der Server-URL\n- Planer (Server): Verzeichnisauswahl über Server-DirectoryBrowser für Quell-, Export- und Verschiebe-Verzeichnisse\n- Planer (Server): Vorlagen-Upload von App zum Server (\"Von App\" Button)\n### Server\n- Planer: \"Jetzt ausführen\" verarbeitet nun auch bereits verarbeitete Dateien erneut (Fix: stiller Abbruch)",
-  "pub_date": "2026-04-02T15:37:00Z",
+  "pub_date": "2026-04-02T18:17:14Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlZMN3BuVUdVOEJVRjZDejJucnBuUkhCZWFKSmdTL3BNLzdqb05KRzJGNkJMMG55MDhQNlVyRWtPN3VlcHl3U2Y2K0Y2Qm03MU5ucTdIZTg1MEJ0M2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MTQzODI3CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKcUw1Q1luWU4yLytEbzh5QzQyT2VuN0pVUWpvZ0Q2Ui9RY1hNQ1d2UTQyRnlpSXd0dlRvUzJmclhhczZnWlNwRzFYeGQrZ00rMjJHMnR4UWhpTWFCQmc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlM5UTE1djJHOW1xbnlZY0JWajB2Y1lNMG0wNklYTmZwMThCU3VIUjV0U2RPVWRCTG5ueEtMTDJIV0cvTUsyNkg1c1BIeG1lYUhFcy8wQzF3bHVTRVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MTUzNDM5CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKQWZpdUlHRkhVQzd5SElvZDFhV0xnTjdHWXhPc3JFZk5ib2hsaTlkVmthS2RjUVBuOTg4UUwyVUU3dm5nMmtpUzRSREwvRWE5a1ZscGNlMFczcjlkQ3c9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmZJZVM2QXVtMXpYcW4rZ0xjZlFucHYzbkdKWUQ5Wmx5RzROT3lHRzhnL0plenU3cFJNeVFvazlRQWhNSUVNd0ExQ0lrUlFHMGFha0grSnNCeThOZXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MTQ0MTI0CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKbExOaWVONCs4YWFnbDIzWFdaNFkydkhoWVZQVEdsUHRsaHRCR2g0Qi9HeEVUc3huMWtLZHRkUmRoVkJKODQ3V3BrK1N3blZLUVRwMmFSWmtFeWdMQlE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmNwQ2N5eGRrTEU3bTZqMmNYWXBBeVJuenJneGtzbjBZTUpISmFvS3A4K2xHazBwbVFhOWNveWtpZTg3NXFzdW01V2g2UDNTOE8zSlJYTitXTmNFQ0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MTUzNzkwCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKcTlTSGRLeVZaZnFZV0w5OUt0N3ZhSUZ6YzFqWE5RMXB1bDI5TlgwOXZsZHhBTWQvcG5GbVVGUmJsdmkwWE95TVBXQ1ZLdEVQQkFybFBlOHdFSGFPQnc9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlVRSmp1VVRVZGZqUG13UjVzeXZjbUxiTGVxeTBxRnRDYWhleGZVVUlMOHV5WldJcjlYUUxyZnhBMU1iVXRBSjBzT3ZNSGlQWi9RbWNpNjhvWkNZWXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MTQ0MTQ0CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC4xMV94NjQtc2V0dXAubnNpcy56aXAKYmNKbmxhY0ZuOEZ2VzdRTHNodXM3NHk4ZXZ2TlBJQjFLWW1NSnE0VzdWY2s3Yk1rc0FQU0JHRSsreDl2NXlZSHRLNUxGVG1xYWZ3SmRFbys0TDhDQ2c9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlFrNEZwSmtEeXpMLzRGY3VGQkM3T1hGRWhVWHBDcDJvN3FzZFg3MTY4VHJVTUVXMmsvakt1RGZjS0VrWlBnM0xyZHZJT0NOL1RlcWZqbjk3LzZiY0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MTUzNzY5CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC4xMV94NjQtc2V0dXAubnNpcy56aXAKL2RoZS8zSEtFNXFMdHZFdkJaSFAyUDNVMGxIUUIvbWlBMDlua29GenBZMWxLalVMQ0VSNk9QSEt1K1RQdFNQdFBLYnFoajVHdTkvRFcwN3pPcm9XRGc9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_6.0.11_x64-setup.nsis.zip"
     }
   }
