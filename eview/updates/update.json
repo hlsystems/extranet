@@ -1,18 +1,18 @@
 {
   "version": "6.0.13",
   "notes": "### App\n- Binary umbenannt: easyviewing.exe statt easyviewing-tauri.exe\n- Keygen aus dem Installer-Paket entfernt (eigenes Crate)\n- Portable-Modus: Update zeigt Download-Link statt Auto-Installer\n- Rechtsklick-Kontextmenü im Release deaktiviert",
-  "pub_date": "2026-04-04T10:07:40Z",
+  "pub_date": "2026-04-04T12:15:53Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmJGaklobWZVelZJN1RFM1JoOUVvWjJGTzhJc0FXVTR6N2R2UzVKMFRMYTlBQTVyU1BiNmNGK0tObG80V25tMWhoS1BjQkRnUURXNTdaU09FUURLT3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Mjk2OTU4CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKUkpXbzNCTEVsSTUraHdyaVZ6WmxDenJleW5jQ21rd2Rkck4vZ2F0aTNPS2ozLzM0bUFLR0ZWelFYOVdlTzRwNDZ2K25QRUtGc1VVNWZGZnN1OFNlQUE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlRiOGljc29rYUtPZXYrY09ibWxNaExWbll3T21kZ00yb01qajBCam52NjdnMkxyMzBwMDZjNnNDZEFGS0NzT1RYMHNFVko1VGtYVVJLTlZOdEFKYkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MzA0NTQwCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKSUR1blRWOXd0ZG81azBpTTJXR2JIUHZwUGxCbFBKV2FaUmpITktyMGoyMDdhZERLcms2Zm94UWhwcDlHQXJHaHpJVHdwSTVHRHpFcFVTaVQ5Ym9IQkE9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmNtK1hXWlFOa2NpWk1pQ2UxdDdMTm9qM1VCT3FrS040dzl0SXJjUjhzeW13dXBDZUhOYys0alYzMVpaVktYdUplZzNETW1DdW5peVJaeHNUTWNXT3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Mjk3MTk0CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKcFUzYVA4clJYa0gvWGl5YXN3aHAvaUFpNXhnR0RRUnozTjFqaE9TR1BaQnAxWDNrRHIxZWdiQmNvVE9UanRvSjBXdU41eG9wKytIM0l5SmFFRzNHQVE9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNldmZmhDeEMzbjVRYUlvSk8yNGFNc3Rha3R6c3BnQ0RiZWtqWEx1cWdjdkRQMkNHTWh1R25aMkdTcERmUEwvRjRtdUpsckRhZkJwTmJFYzc1L1ozQ1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MzA0ODQ1CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKZGd0ZklCcjJzRHFpeUlteUViSk81VURiZWg3MzBnRHgxeW93VTRHUG80MzBhZU85RktFUThhWVV5enBHSXoySHQ1cUNadjBsZlQzQmMzYzlzTHNCQnc9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlpzTlEwK2pWZTdwcVJvQ0lac0lvVjUzRVNvR3dyZ0xTb3U0Vk1SejBNSk9YU0F5N28rNStwaXRTWTJZUFhhV0ZKTU05bS9vSGZnOFFGMnZCSUorS3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1Mjk3MjA3CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC4xM194NjQtc2V0dXAubnNpcy56aXAKRWY2YjYzSCs2THhNU1BrUlF6dS9LdUZBUVBKbzNDaWl0ZHZ0TXViSnhRRk05RWJpTzVHb0VKMWMzaEhQSEhDRzBKTTRMSXFMTWYrTzlrZTludDJUQWc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmVIczV4a09xZnNMVWgvMUxPcmR4bTdUUXhNaVZ4UkdQcFMrckVUR3V3T1Z4MXBkQTk3dEJ2OGV5UnJWVmMrVExQL205b1N5U1hMekN4eEMzalZobVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc1MzA0ODg2CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC4xM194NjQtc2V0dXAubnNpcy56aXAKZ1FMYmphU3pQRTVwMFAvRVhWejFtaHZFTzlkMVEyWFRseEQ1c3NpZU9Benl5aWlTSjhlSTFYRFFxTmw1N0hEWjJudWtudFRXbytscC9Xa3RUQnVlQ2c9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_6.0.13_x64-setup.nsis.zip"
     }
   }
