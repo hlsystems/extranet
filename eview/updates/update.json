@@ -1,18 +1,18 @@
 {
   "version": "6.0.16",
   "notes": "### App\n- Auto-Update auf macOS funktioniert wieder: `is_portable` lieferte auf macOS fälschlich `true`, wodurch der Update-Dialog nur einen externen Download-Link statt des Auto-Installers zeigte. Portable-Modus ist jetzt explizit auf Windows beschränkt.",
-  "pub_date": "2026-04-24T07:53:32Z",
+  "pub_date": "2026-04-24T08:09:12Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmNnNkVFODdPZGJhUHd1bVBmMUl4UGRCMXl0N1laN3h2MUEyYVNnZGdMK0FwbTJaQ0c0ZnN5cWRDa3ZFT2F4UmVPOTI0eVIwNXRpcHRHeGVCNEk4Snc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDE2Nzk2CWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKNnF6eitiSENhRzNvdXhDS3FYelJsakZweXBKVkZyYlk3NzFLclVkcjI4c2VScDdrYk13SHBRd0hTYmN5dUdJeUZuc2FTVzVYQTRSYUYvQWptS0NxQ2c9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlVmT3Y5dlE5YmI0Z1JSbzdBOThYOEpvU3FVZzgyL0RseC81dTdKeUtBSTQwcUhEc0cwYmVNeVdhSW5PU3hFYXN3M2wxSmRaemNLQTJqekpkSXVhQkFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDE3NzIzCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKYTgvbWVXcC9BQlJ1YW5jTUhaVHA2NHYrbnpVSkhhOW1FZVNRU0FtdUNKMGVna2diRU1ETXgvaHo2NEZIa3pxbnJ5cmtoQUtKM2NGcG85LzhteXR0Qmc9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNmJTQkkwZUZwNGhPcEVXOVpmdHZUdk5JSXV2Ym1YU3VFOGlkOTE0UTkxWTV1VmdZeHNUMG11NVFTcnJ0Q0xZOUZ5dEhNQ0hsaE5WTGtRRTBrN3U4eXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDE3MTkyCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKcElwR08ySkt0S1g5NDBMbE5pcGt3Tm1SdlJCODVKNDR6TzREVDlYdC9YRDl5TWEyL3l6bGU4eSt2VnZXU2NIRTc5VEl0bllXYlMyRVNoVTFWOE1BRGc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNllhc3p5anBJc2ZJTEpjOXRFVjZ3OHIrT2w2OTlBamFqZ214bWtBaUhJYTZXQ2l0dUdsNXlGMEtCTGFJTC9nZU1OL2t4OGo3SnAwQW9WeG5SWUxNNlF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDE4MTMyCWZpbGU6ZWFzeSBWaWV3aW5nLmFwcC50YXIuZ3oKakNCOXhsL3hmSTBFaHJtYUV2UTdOSFViOTN3NS9yNkVWcVErc2pQZnJNeENCVVhsanc3UERaNk4vckNEVlBDQnVidGV0UGlwNlpRcjVJMDhVeVdCQkE9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNlorUnFxKytQTnh0azFZNlVWVkhOeHJUeEtQUWNXNVVsNmZmT1FhaU9saTM4SVpzME5TRjJVa0tLT2NHRkw3eHhnNWRQUVN4QjNCUFBVa3JiUGxyaEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDE2OTk2CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC4xNl94NjQtc2V0dXAubnNpcy56aXAKWFBON080RVp2NlhqaUZjTk1kM2x6MkN2dzRndXNRKzUzUHN4ME9qeDJ4U05OQ2lkZEh4ME5JclVFc21iZDJwZW55NjdPdnhDTWJQZm1pazBYeVZqQWc9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUakNGRXBxSGRuNllGTXBNcmtLMW1icHM3VEx3QjNUSWFYbER1L2t5K1dPV1BBd3BIWGgzZVFPcDZ1VVBpb0ovTU1RQ0NjYXAzMFJEUWErNjBHQm81OHdRVHNXM0Y4TXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MDE3ODU5CWZpbGU6ZWFzeSBWaWV3aW5nXzYuMC4xNl94NjQtc2V0dXAubnNpcy56aXAKKzk1bWE4bElaMHhhRVJWN3FmRWNtNHd5U3BWTGIyWGxVaE9yT0UwaEtYOWUvdDNFNElQZEdYWisvbmZSVzIwcm5vRi80N05TUktZZms1MllGZTZWRHc9PQo=",
       "url": "https://files.hlscloud.de/eview/updates/easy.Viewing_6.0.16_x64-setup.nsis.zip"
     }
   }
