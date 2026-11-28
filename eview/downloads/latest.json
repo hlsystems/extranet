@@ -1,11 +1,11 @@
 {
-  "version": "6.1.1",
-  "released": "2026-11-28T11:28:07Z",
+  "version": "6.2.0",
+  "released": "2026-11-28T15:13:58Z",
   "base_url": "https://files.hlscloud.de/eview/downloads/",
   "files": {
-    "windows_installer": "easy.Viewing_6.1.1_x64-setup.exe",
-    "windows_portable": "easy.Viewing_6.1.1_x64_portable.exe",
-    "macos_apple_silicon": "easy.Viewing_6.1.1_aarch64.dmg",
-    "macos_intel": "easy.Viewing_6.1.1_x64.dmg"
+    "windows_installer": "easy.Viewing_6.2.0_x64-setup.exe",
+    "windows_portable": "easy.Viewing_6.2.0_x64_portable.exe",
+    "macos_apple_silicon": "easy.Viewing_6.2.0_aarch64.dmg",
+    "macos_intel": "easy.Viewing_6.2.0_x64.dmg"
   }
 }
